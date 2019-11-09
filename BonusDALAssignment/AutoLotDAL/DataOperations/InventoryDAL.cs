@@ -25,8 +25,8 @@ namespace AutoLotDAL.DataOperations
 
         // Create a constructor that takes a string parameter 
         // (connection string) and assigns the value to a class-level variable.
-        public InventoryDAL() : this(@"Data Source = (localdb)\mssqllocaldb;Integrated
-        Security=true;Initial Catalog=AutoLot")
+        public InventoryDAL() : this(@"Data Source = (localdb)\mssqllocaldb;
+            Integrated Security=true;Initial Catalog=AutoLot")
         {
         }
 
